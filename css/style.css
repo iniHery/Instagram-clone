@@ -1,0 +1,544 @@
+.button-icon {
+  background: transparent;
+  border: none;
+  padding: 4px;
+  border-radius: 6px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.icon {
+  justify-content: space-between;
+  width: 26px;
+}
+
+.button-icon:hover {
+  background: #eaeaea;
+}
+
+.content {
+  display: flex;
+  margin-bottom: 18px;
+}
+
+.nav {
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px #e2e2e2;
+  height: 54px;
+  padding: 0px 20px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 32px;
+}
+
+.flex-container {
+  padding-top: 54px;
+  display: flex;
+  background-color: transparent;
+}
+
+.flex-container > div {
+  background-color: transparent;
+  color: white;
+  width: 300px;
+  padding-top: 10px;
+  margin: 8px;
+  text-align: center;
+  font-size: 4px;
+}
+
+.hero {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+  padding: 3px;
+  background: linear-gradient(to right, rgb(255, 173, 50), rgb(255, 9, 255));
+}
+
+img.profile {
+  display: flex;
+  justify-content: space-between;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  text-align: justify;
+}
+
+.flex-profile1 {
+  display: flex;
+  background-color: transparent;
+  margin: 4px;
+  padding: 4px;
+  border-top: solid 1px #e2e2e2;
+}
+
+.content-title {
+  font-size: 28px;
+  margin-top: 0px;
+}
+
+.description {
+  display: flex;
+  margin-top: 6px;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 6px;
+}
+
+.title {
+  margin-top: 32px;
+}
+
+.feed1 {
+  width: 100%;
+}
+
+.flex-menu {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #e2e2e2;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 14px;
+  background: #fff;
+}
+
+.wrapper-flex {
+  display: flex;
+  margin-top: 6px;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+}
+
+.coment {
+  justify-content: space-between;
+  width: 16px;
+}
+
+.username {
+  font-weight: bold;
+  padding-right: 6px;
+  margin: 0px;
+}
+
+.username1 {
+  margin-right: 4px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* profil */
+
+.button-icon {
+  background: transparent;
+  border: none;
+  padding: 4px;
+  border-radius: 6px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.icon {
+  display: inline-flex;
+  width: 24px;
+}
+
+.button-icon:hover {
+  background: #eaeaea;
+}
+
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  align-items: center;
+  margin-bottom: 8px;
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.wrapper-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article-content {
+  width: 1024px;
+}
+
+.profil {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.description-profile {
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 36px;
+  font-size: 16px;
+}
+
+.flex-profile {
+  justify-content: space-between;
+  margin: 6px;
+  padding: 6px;
+  font-size: 6px;
+}
+
+.bio {
+  font-size: 12px;
+  margin-top: 14px;
+}
+
+.sorotan {
+  display: flex;
+}
+
+img.sorotan {
+  display: flex;
+  padding: 10px;
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
+
+.description-sorotan {
+  text-align: center;
+  margin-bottom: 22px;
+  font-size: 16px;
+}
+
+.postingan {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px rgb(207, 207, 207);
+}
+
+.postingan-icon {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.feed {
+  display: flex;
+  margin: 1px 1px 1px 1px;
+}
+
+img.feed {
+  width: 150px;
+  height: 150px;
+}
+
+.flex-menu {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  border-top: 1px solid #e2e2e2;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 14px;
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  font-family: sans-serif;
+  font-size: 15px;
+  background: transparent;
+  color: rgb(3, 3, 3);
+  border: rgb(0, 0, 0) 1px solid;
+  border-radius: 5px;
+  padding: 6px 36px;
+  margin-top: 14px;
+}
+
+.icon {
+  display: inline-flex;
+  width: 16px;
+}
+
+/* end profil */
+
+/* profile1 */
+
+.flex-menu {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #e2e2e2;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 14px;
+  background: #fff;
+}
+
+.button-icon {
+  background: transparent;
+  border: none;
+  padding: 4px;
+  border-radius: 6px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.icon {
+  display: inline-flex;
+  width: 24px;
+}
+
+.button-icon:hover {
+  background: #eaeaea;
+}
+
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  align-items: center;
+  margin-bottom: 8px;
+  border-bottom: solid 1px #e2e2e2;
+  height: 54px;
+  padding: 0px 16px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.wrapper-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article-content {
+  width: 1024px;
+}
+
+.profil {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.description-profile {
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 36px;
+  font-size: 16px;
+}
+
+.flex-profile {
+  justify-content: space-between;
+  margin: 6px;
+  padding: 6px;
+  font-size: 6px;
+}
+
+.bio {
+  font-size: 12px;
+  margin-top: 14px;
+}
+
+/* table {
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+  margin-top: 10px;
+  width: 100%;
+  border: 1px solid black;
+  text-align: center;
+  cursor: pointer;
+} */
+
+.sorotan {
+  display: flex;
+}
+
+img.sorotan {
+  display: flex;
+  padding: 14px;
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
+
+.description-sorotan {
+  text-align: center;
+  margin-bottom: 22px;
+  font-size: 16px;
+}
+
+.postingan {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px rgb(207, 207, 207);
+}
+
+.postingan-icon {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.feed {
+  display: flex;
+  margin: 1px 1px 1px 1px;
+}
+
+img.feed {
+  width: 135px;
+  height: 135px;
+  margin-bottom: 20px;
+}
+
+.flex-menu {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  border-top: 1px solid #e2e2e2;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 14px;
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  font-family: sans-serif;
+  font-size: 15px;
+  background: transparent;
+  color: rgb(3, 3, 3);
+  border: rgb(0, 0, 0) 1px solid;
+  border-radius: 5px;
+  padding: 4px 24px;
+  margin-top: 14px;
+}
+
+.icon {
+  display: inline-flex;
+  width: 24px;
+}
+
+/* end profile1 */
+
+.myprofile {
+  font-family: sans-serif;
+  font-size: 15px;
+  background: transparent;
+  color: rgb(3, 3, 3);
+  border: rgb(172, 171, 171) 1px solid;
+  border-radius: 5px;
+  padding: 10px 160px;
+  margin-top: 18px;
+}
+
+.flex-menu {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #e2e2e2;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 12px;
+  background: #fff;
+}
+
+/* dm */
+
+.dm {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.isi-dm {
+  padding-top: 12px;
+  padding-right: 40%;
+}
+
+.tampilan-dm {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 12px;
+  padding-top: 12px;
+}
+
+.hero-dm {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
+
+.icon-dm {
+  justify-content: space-between;
+  width: 30px;
+  padding-right: 10px;
+  color: #e2e2e2;
+}
+
+/* end dm */
+
+.tab {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px 0px;
+  list-style-type: none;
+  margin-bottom: 0px;
+}
+
+.tab > .item {
+  text-align: center;
+  padding: 10px 24px;
+  white-space: nowrap;
+  border-bottom: solid 2px #eaeaea;
+}
+
+.item.active {
+  border-bottom: solid 2px #000;
+}
